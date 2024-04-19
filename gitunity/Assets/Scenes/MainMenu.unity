@@ -283,8 +283,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281150888
-  m_fontColor: {r: 0.6603774, g: 0.17755428, b: 0.17755428, a: 1}
+    rgba: 4285908455
+  m_fontColor: {r: 0.9058824, g: 0.7725491, b: 0.45882356, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -453,7 +453,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -566, y: 313}
+  m_AnchoredPosition: {x: -174, y: 130}
   m_SizeDelta: {x: 700, y: 147.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &516230733
@@ -485,8 +485,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4286719268
-  m_fontColor: {r: 0.14177644, g: 0.14452553, b: 0.509434, a: 1}
+    rgba: 4283009255
+  m_fontColor: {r: 0.9056604, g: 0.53361064, b: 0.28622285, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -681,7 +681,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -499, y: 6}
+  m_AnchoredPosition: {x: -4, y: -92}
   m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &607642123
@@ -730,7 +730,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 823374691}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: PlayGame
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -828,7 +828,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 823374689}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a632e730801fcd64594c527437bab483, type: 3}
+  m_Script: {fileID: 11500000, guid: 8136a14ab79bb154a8d8f2d9fb830393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &829285295
@@ -867,7 +867,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -499.00003, y: -262}
+  m_AnchoredPosition: {x: -4.0000305, y: -360}
   m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &829285297
@@ -916,7 +916,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 823374691}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_MethodName: quit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1030,8 +1030,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281150888
-  m_fontColor: {r: 0.6603774, g: 0.17755428, b: 0.17755428, a: 1}
+    rgba: 4285908455
+  m_fontColor: {r: 0.9056604, g: 0.7737184, b: 0.45710218, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1155,7 +1155,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: c39560479d42c0344b3cc801493faeaf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1341,8 +1341,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281150888
-  m_fontColor: {r: 0.6603774, g: 0.17755428, b: 0.17755428, a: 1}
+    rgba: 4285908455
+  m_fontColor: {r: 0.9058824, g: 0.7725491, b: 0.45882356, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1445,7 +1445,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -499.00003, y: -126}
+  m_AnchoredPosition: {x: -4.0000305, y: -224}
   m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2076474496
@@ -1494,7 +1494,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 823374691}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: OtherMenu
+        m_MethodName: levels
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

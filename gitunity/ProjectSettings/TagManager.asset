@@ -12,6 +12,7 @@ TagManager:
   - Star
   - Obstacle
   - Switch
+  - Fall
   layers:
   - Default
   - TransparentFX

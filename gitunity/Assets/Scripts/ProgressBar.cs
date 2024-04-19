@@ -5,23 +5,25 @@ using UnityEngine;
 using UnityEngine.UI;
 public class ProgressBar : MonoBehaviour
 {
-    public int maximum;
-    public int current;
+    [SerializeField] public Player pl;
+    float maximum = 100;
+    float current;
     public Image mask;
 
     void Start()
     {
-        
+        current = 100;
     }
 
     void Update()
     {
+        current = pl.fuel;
         getCurrentFill();
     }
 
     private void getCurrentFill()
     {
-        float fillAmount = (float)current / (float)maximum;
+        float fillAmount = current / maximum;
         mask.fillAmount = fillAmount;
     }
 }

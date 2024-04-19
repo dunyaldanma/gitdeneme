@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] AudioClip dede;
+    AudioSource audio;
+
+    private void Start()
     {
-        
+        audio = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter(Collision collision)
     {
-        
+        if (collision.gameObject.tag == "Player")
+        {
+            audio.PlayOneShot(dede);
+        }
     }
 }

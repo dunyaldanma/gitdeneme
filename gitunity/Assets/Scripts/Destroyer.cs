@@ -15,7 +15,7 @@ public class Destroyer : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag != "Border")
+        if (other.gameObject.tag != "Border" && other.gameObject.tag != "Fall")
         {
             Destroy(other.gameObject);
         }
